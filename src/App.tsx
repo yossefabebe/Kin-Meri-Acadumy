@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import {
   Menu, X, Globe, ArrowRight, Users, GraduationCap, Heart,
   Shield, Sparkles, Laptop, DollarSign,
-  Send, Youtube, Music, Quote, Star, ChevronDown,
+  Send, Youtube, Tiktok, Quote, Star, ChevronDown,
   Target, Eye, Award, HandHeart, RefreshCw, Users2, CheckCircle2,
 } from 'lucide-react';
 import { translations, socialLinks, type Language } from './translations';
