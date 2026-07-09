@@ -387,7 +387,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 text-sm font-medium text-slate-800 hover:text-slate-900 transition-colors"
                       >
-                        <Music className="w-4 h-4" />
+                        <FaTiktok className="w-4 h-4" />
                         {t.courses.followTikTok}
                       </a>
                     </div>
@@ -461,7 +461,7 @@ function App() {
             {[
               { name: t.community.telegram, desc: t.community.telegramDesc, icon: Send, url: socialLinks.telegram, cta: t.community.visit, color: 'from-sky-500 to-blue-600', hover: 'hover:shadow-sky-500/30' },
               { name: t.community.youtube, desc: t.community.youtubeDesc, icon: Youtube, url: socialLinks.youtube, cta: t.community.subscribe, color: 'from-red-500 to-red-700', hover: 'hover:shadow-red-500/30' },
-              { name: t.community.tiktok, desc: t.community.tiktokDesc, icon: Music, url: socialLinks.tiktok, cta: t.community.follow, color: 'from-slate-700 to-slate-900', hover: 'hover:shadow-slate-500/30' },
+              { name: t.community.tiktok, desc: t.community.tiktokDesc, icon: Tiktok, url: socialLinks.tiktok, cta: t.community.follow, color: 'from-slate-700 to-slate-900', hover: 'hover:shadow-slate-500/30' },
             ].map((social, i) => (
               <a
                 key={i}
@@ -542,7 +542,7 @@ function App() {
                 {[
                   { name: 'Telegram', icon: Send, url: socialLinks.telegram },
                   { name: 'YouTube', icon: Youtube, url: socialLinks.youtube },
-                  { name: 'TikTok', icon: Music, url: socialLinks.tiktok },
+                  { name: 'TikTok', icon: Tiktok, url: socialLinks.tiktok },
                 ].map((s) => (
                   <a
                     key={s.name}
