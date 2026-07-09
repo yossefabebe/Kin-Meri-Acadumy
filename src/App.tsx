@@ -6,7 +6,7 @@ import {
   Target, Eye, Award, HandHeart, RefreshCw, Users2, CheckCircle2,
 } from 'lucide-react';
 import { translations, socialLinks, type Language } from './translations';
-
+import { FaTiktok } from "react-icons/fa6";
 function useReveal() {
   useEffect(() => {
     const observer = new IntersectionObserver(
