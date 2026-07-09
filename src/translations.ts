@@ -185,7 +185,7 @@ export const translations = {
     },
     community: {
       badge: 'ማህበራዊ የመማር ማህበረሰብ',
-      title: 'ማህበረሰባችን ይቀላቀሉ',
+      title: 'ማህበረሰባችንን ይቀላቀሉ',
       subtitle: 'ከእኛ ጋር ይገናኙ፣ መማርዎን ይቀጥሉ፣ አብረውም ይደጉ። ለዕለት ጥቅም ፅኑነት፣ ትምህርቶች እና ዜናዎች የማህበራዊ መገናኛዎቻችንን ይከታተሉ።',
       telegram: 'Telegram',
       telegramDesc: 'ለውይይቶች እና ማስታወቂያዎች የ Telegram ቻናላችንን ይቀላቀሉ።',
