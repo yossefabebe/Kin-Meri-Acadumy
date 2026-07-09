@@ -387,6 +387,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 text-sm font-medium text-slate-800 hover:text-slate-900 transition-colors"
                       >
+                        <a href={socialLinks.tiktok}>
                         <FaTiktok className="w-4 h-4" />
                         {t.courses.followTikTok}
                       </a>
